@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="mdb_lightKit_VI.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+    </startup>
+    <userSettings>
+        <mdb_lightKit_VI.Properties.Settings>
+            <setting name="IP" serializeAs="String">
+                <value>192.2.50.100</value>
+            </setting>
+            <setting name="UserName" serializeAs="String">
+                <value>lightkitdev</value>
+            </setting>
+            <setting name="Password" serializeAs="String">
+                <value>@Lightkitdev1</value>
+            </setting>
+            <setting name="NumberOfColumns" serializeAs="String">
+                <value>24</value>
+            </setting>
+            <setting name="SizeX" serializeAs="String">
+                <value>350</value>
+            </setting>
+            <setting name="SizeY" serializeAs="String">
+                <value>320</value>
+            </setting>
+            <setting name="MaxLength" serializeAs="String">
+                <value>1800</value>
+            </setting>
+            <setting name="MaxWidth" serializeAs="String">
+                <value>1500</value>
+            </setting>
+            <setting name="CalLength" serializeAs="String">
+                <value>1800</value>
+            </setting>
+            <setting name="CalWidth" serializeAs="String">
+                <value>1500</value>
+            </setting>
+            <setting name="Inch" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Interval" serializeAs="String">
+                <value>6</value>
+            </setting>
+            <setting name="ShowPixelNumbers" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="Fractional" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="FractionalPrecisionIndex" serializeAs="String">
+                <value>5</value>
+            </setting>
+            <setting name="FractionalPrecisionValue" serializeAs="String">
+                <value>64</value>
+            </setting>
+        </mdb_lightKit_VI.Properties.Settings>
+    </userSettings>
+</configuration>
